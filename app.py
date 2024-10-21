@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/check_page', methods=['GET'])
 def check_page():
     # URL da página que você deseja acessar
-    url = "https://replicabot.vercel.app/"
+    url = "https://testebotvercel.vercel.app/"
     
     # Faz uma solicitação para a URL
     response = requests.get(url)
